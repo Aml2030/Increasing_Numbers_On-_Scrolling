@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Tahoma, Arial;
+  margin: 0;
+  background-color: #eee;
+}
+section {
+  font-size: 40px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section:first-child {
+  background-color: #333;
+}
+section:nth-child(2) {
+  background-color: #ddd;
+}
+section:nth-child(3) {
+  background-color: #777;
+}
+section:last-of-type {
+  background-color: #444;
+}
+.nums {
+  width: 400px;
+  display: flex;
+}
+.nums .num {
+  flex: 1;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
